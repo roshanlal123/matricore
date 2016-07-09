@@ -10,7 +10,7 @@ Depending on your PHP version you may need to install the following libaries:
 // The UDI Auth token identifies the submitting system, and the account that it is submitting to. 
 //  These tokens are issues by OMX account administrators, usually filtered to specific IP addresses and APIs to be permitted.
 //  The sample token used here is a token for the OMX Test Drive Account - please contact Support with any questions about this account or to request access.
-define("TOKEN", "724b06e605866042f2087f404a247275553956b2d6df04d0704763097510de3e12ae4722fbb431390fc3e042d80a03f031306e0a30c245e8c6210b6ef0454f0b84c089eef5c64d8dbbe3a7ae09abf0427b0894206677546fa3b07177d7f301ebb04757099f70f9c43e995f395db5224b08a3e041cb0a2d509da20ec1d8d5d37");
+define("TOKEN", "");
 
 function PostRequest($url, $data) {
 	
